@@ -1,0 +1,44 @@
+.btn-success {
+    background-color: aquamarine;
+}
+
+/* xs - Extra Small - <576px */
+.breakpoints {
+    color: brown;
+}
+
+/* sm - Small - ≥576px */
+@media(min-width: 576px) {
+    .breakpoints {
+        color: purple;
+    }
+}
+
+/* md - Medium - ≥768px */
+@media(min-width: 768) {
+    .breakpoints {
+        color: yellow;
+    }
+}
+
+/* lg - Large - ≥ 992px */
+@media(min-width: 992px) {
+    .breakpoints {
+        color: red;
+    }
+}
+
+/* xl - Extra Large - ≥1200px */
+@media(min-width: 1200px) {
+    .breakpoints {
+        color: cadetblue;
+    }
+}
+
+/* xxl - Extra extra Large - ≥1400px */
+@media(min-width: 1400px) {
+    .breakpoints {
+        color: black;
+    }
+}
+
