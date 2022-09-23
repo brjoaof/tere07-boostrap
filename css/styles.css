@@ -42,3 +42,29 @@
     }
 }
 
+.container1 {
+    height: 50px;
+    background-color: azure;
+}
+
+.container2 {
+    height: 50px;
+    background-color: bisque;
+}
+
+.grid-container{
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.grid-row {
+    border: 2px solid red;
+    height: 100px;
+    margin: 0;
+    padding: 8px;
+}
+
+.col, .col-12, .col-8, 
+.col-6, .col-5, .col-4,.col-3 {
+    border: 2px solid purple;
+}
